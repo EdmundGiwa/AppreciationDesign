@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="654.0" prefWidth="961.0" stylesheets="@../style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="appreciateheroes.DesignPageController">
+   <children>
+      <ImageView fitHeight="654.0" fitWidth="961.0" layoutY="-1.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@img.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="654.0" prefWidth="961.0" styleClass="overlayPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutY="351.0" prefHeight="76.0" prefWidth="759.0" style="-fx-background-radius: 0px 25px 0px 0px;" styleClass="overlayPane">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appreciation To the real Heroes Risking their lives to save us at this time ">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="659.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8_trust_filled_100px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="170.0" layoutY="436.0" prefHeight="76.0" prefWidth="420.0" styleClass="overlayPane">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="On behalf of Me and my friends we say Thank you #Alonetogether">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text fill="WHITE" layoutX="789.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From Eddy ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="46.0" layoutX="901.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_handshake_heart_filled_100px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
